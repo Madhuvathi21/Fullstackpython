@@ -51,3 +51,20 @@ print(square(5))
 
 odd_even= lambda x: "even" if x % 2 == 0 else "odd"
 print(odd_even(5))
+
+
+
+ account = bank(5000)
+account.check_balance()
+
+
+
+class user:
+    def  _int_(self,name)
+        self.name=name
+    def login(self):
+        print(self.name,"loggend in")
+
+
+u1=user("nibba")
+u1.login()        

@@ -35,11 +35,11 @@ else:
 
 ############### Billing system
 
-#item = input("Enter item name: ")
-#quantity= int(input("Enter quantity: "))
-#price=float(input("Enter price: "))
-#total = quantity * price
-#print("Total price: ", total)
+item = input("Enter item name: ")
+quantity= int(input("Enter quantity: "))
+price=float(input("Enter price: "))
+total = quantity * price
+print("Total price: ", total)
 
 ################# conditional operator
 
@@ -48,34 +48,34 @@ if password=="admin":
     print("Access granted")
 else:
     pass
-#     print("Access denied")
+print("Access denied")
 
 
 
-# CGPA= int (input ("enter your CGPA:"))
-# if CGPA>=9:
-#     print("A grade")
-# elif CGPA>= 7:
-#     print("B grade")
-# elif CGPA>= 5:
-#     print("C grade")
-# else:
-#     print("fail")
+CGPA= int (input ("enter your CGPA:"))
+if CGPA>=9:
+    print("A grade")
+elif CGPA>= 7:
+    print("B grade")
+elif CGPA>= 5:
+    print("C grade")
+else:
+    print("fail")
 
 ################## logical condition
 
-########### AND Operator
+########### AND Operator #################
 salary = int(input("Enter your salary: "))
 age= int(input("Enter your age: "))
 if salary>=10000 and age>=18:
     print("You are eligible for loan")
 
-########### OR Operator
+########### OR Operator ###################
 day= input("Enter day: ")
 if day=="saturday" or day=="sunday":
     print("You can go for picnic")
 
-############ Functions
+############ Functions ###################
 def withdraw_money():
     pin=input("enter thr pin:")
     if pin=="1234":
