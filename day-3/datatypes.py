@@ -9,7 +9,7 @@ print(numbers[-3])
 ################# List doesn't have index values , and are mutable [_] , can't add duplicate value
 
 data= [1 , 2 , 3]
-data[1] =100
+data[1] =100++++++++++++++++++++++++++++++++++++
 print(data)
 
 x= (1,2,1,4,5,1,1,8,9)         ################### counts the number of times it repeats in tuple , can add duplicate value
